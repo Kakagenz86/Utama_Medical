@@ -3,24 +3,24 @@ import './style.css'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { Modal } from 'bootstrap';
-import Surat1 from '../../../assets/image/Surat/Surat1.jpeg'
-import Surat2 from '../../../assets/image/surat/Surat2.jpeg';
-import Surat3 from '../../../assets/image/surat/Surat3.jpeg';
-import Surat4 from '../../../assets/image/surat/Surat4.jpeg';
-import Surat5 from '../../../assets/image/surat/Surat5.jpeg';
-import Surat6 from '../../../assets/image/surat/Surat6.jpeg';
-import Surat7 from '../../../assets/image/surat/Surat7.jpeg';
-import Surat8 from '../../../assets/image/surat/Surat8.jpeg';
-import Surat9 from '../../../assets/image/surat/Surat9.jpeg';
-import Surat10 from '../../../assets/image/surat/Surat10.jpeg';
-import Surat11 from '../../../assets/image/surat/Surat11.jpeg';
-import Surat12 from '../../../assets/image/surat/Surat12.jpeg';
-import Surat13 from '../../../assets/image/surat/Surat13.jpeg';
-import Surat14 from '../../../assets/image/surat/Surat14.jpeg';
-import Surat15 from '../../../assets/image/surat/Surat15.jpeg';
-import Surat16 from '../../../assets/image/surat/Surat16.jpeg';
-import Surat17 from '../../../assets/image/surat/Surat17.jpeg';
-import Surat18 from '../../../assets/image/surat/Surat18.jpeg';
+import Surat1 from '../assets/image/Surat/Surat1.jpeg'
+import Surat2 from '../assets/image/Surat/Surat2.jpeg'
+import Surat3 from '../assets/image/Surat/Surat3.jpeg'
+import Surat4 from '../assets/image/Surat/Surat4.jpeg'
+import Surat5 from '../assets/image/Surat/Surat5.jpeg'
+import Surat6 from '../assets/image/Surat/Surat6.jpeg'
+import Surat7 from '../assets/image/Surat/Surat7.jpeg'
+import Surat8 from '../assets/image/Surat/Surat8.jpeg'
+import Surat9 from '../assets/image/Surat/Surat9.jpeg'
+import Surat10 from '../assets/image/Surat/Surat10.jpeg'
+import Surat11 from '../assets/image/Surat/Surat11.jpeg'
+import Surat12 from '../assets/image/Surat/Surat12.jpeg'
+import Surat13 from '../assets/image/Surat/Surat13.jpeg'
+import Surat14 from '../assets/image/Surat/Surat14.jpeg'
+import Surat15 from '../assets/image/Surat/Surat15.jpeg'
+import Surat16 from '../assets/image/Surat/Surat16.jpeg'
+import Surat17 from '../assets/image/Surat/Surat17.jpeg'
+import Surat18 from '../assets/image/Surat/Surat18.jpeg'
 
 const Sertifikat = () => {
     const imageSources = [Surat1, Surat2, Surat3, Surat4, Surat5, Surat6, Surat7, Surat8, Surat9, Surat10, Surat11, Surat12, Surat13, Surat14, Surat15, Surat16, Surat17, Surat18];

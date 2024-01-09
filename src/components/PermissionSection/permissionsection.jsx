@@ -1,5 +1,5 @@
 import './style.css'
-import Sertifikat from './Sertifikat/sertifikat';
+import Sertifikat from '../../Sertifikat/sertifikat';
 import Header from '../Header/header';
 
 const PermissionSection = () => {
