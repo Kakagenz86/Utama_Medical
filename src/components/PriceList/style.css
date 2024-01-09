@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@500&display=swap');
+
+.pricelist {
+    border-collapse: collapse;
+    margin: auto;
+    width: 1000px;
+    background-color: white;
+}
+
+.title-pricelist {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+.pricelist-name {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.th-pricelist, .td-pricelist {
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.th-pricelist {
+    background-color: #afafaf;
+}
+
+@media (max-width:576px) {
+    .pricelist {
+        width: 90%;
+    }
+}

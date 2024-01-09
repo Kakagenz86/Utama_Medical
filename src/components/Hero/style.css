@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@500&display=swap');
+
+.hero {
+    position: relative;
+    height: 90vh;
+}
+
+.hero-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url(../../assets/image/img1.jpg);
+    background-size: cover;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.title-hero {
+    font-weight: 700;
+    font-size: 40px;
+    color: black;
+    font-family: 'Exo', sans-serif;
+}
+
+.logo-hero {
+    width: 120px;
+    height: 150px;
+}
+
+
+@media (max-width:576px) {
+    .hero-wrapper {
+        flex-direction: column;
+    }
+
+    .hero::before {
+        background-position: center;
+    }
+
+    .logo-hero {
+        width: 25%;
+        height: 25%;
+    }
+}

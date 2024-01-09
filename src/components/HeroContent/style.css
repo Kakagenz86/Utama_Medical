@@ -1,0 +1,24 @@
+.herocontent {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-hero {
+    width: 1000px;
+    height: 500px;
+}
+
+.carousel-hero-wrapper {
+    width: 1000px;
+}
+
+@media (max-width:576px) {
+    .carousel-hero {
+        width: 100%;
+        height: 80%;
+    }
+
+    .carousel-hero-wrapper {
+        width: 80%;
+    }
+}

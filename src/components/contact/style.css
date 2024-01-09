@@ -1,0 +1,48 @@
+.contact {
+    height: 300px;
+}
+
+.contact-wa-1 {
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    gap: 8px;
+    color: white;
+    border-radius: 3px;
+    background-color: #2980b9;
+    font-family: 'Roboto Condensed', sans-serif;
+} 
+
+.contact-wa-2 {
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    gap: 8px;
+    border-radius: 3px;
+    border: 3px solid #2980b9;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.text-wa-contact {
+    position: relative;
+    top: 7px;
+    font-size: 20px;
+}
+
+@media (max-width:576px) {
+    html {
+        font-size: 75%;
+    }
+
+    .text-permission {
+        font-size: 15px;
+    }
+
+    .bg-permission:before {
+        background-position: center;
+    }
+}

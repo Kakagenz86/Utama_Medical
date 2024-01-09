@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@500&display=swap');
+
+.footer {
+    background-color: #2980b9;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    align-items: center;
+}
+
+.footer .footer-header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-wrapper-link{
+    padding-left: 100px;
+}
+
+.footer .footer-logo {
+    width: 90px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+
+.footer .footer-icon {
+    font-size: 20px;
+    text-align: center;
+    padding: 2px 6px 4px 6px;
+    margin-right: 10px;
+    border-radius: 100%;
+    color: #2980b9;
+    background-color: white;
+}
+
+.footer .footer-text-wrapper {
+    font-weight: 700;
+    width: 250px;
+    font-size: 14px;
+}
+
+.footer .footer-link {
+    text-decoration: none;
+    display: flex;
+    color: black;
+    line-height: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.footer .footer-link:hover {
+    color: white;
+}
+
+@media (max-width:576px) {
+    .footer {
+        height: 700px;
+    }
+
+    .footer .footer-logo {
+        margin-left: 0;
+        width: 15%;
+        height: 80%;
+    }
+
+    .footer .footer-wrapper-link {
+        padding-left: 0;
+    }
+
+    .footer .footer-text-wrapper {
+        width: 220px;
+    }
+}

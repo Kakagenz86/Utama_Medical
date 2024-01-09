@@ -1,0 +1,51 @@
+.bg-product {
+    position: relative;
+}
+
+.bg-product:before {
+    background-image: url(../../assets/image/img3.jpg);
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.wrapper-product {
+    border: 1px solid black;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.wrapper-product:hover {
+    transform: scale(1.1);
+}
+
+.img-product {
+    height: 100px;
+}
+
+.btn-close-product {
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+}
+
+.title-list-product {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+}
+
+@media (max-width:576px) {
+    .bg-product:before {
+        background-position: center;
+    }
+}
