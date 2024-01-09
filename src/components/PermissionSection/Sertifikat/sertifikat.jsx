@@ -3,7 +3,7 @@ import './style.css'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { Modal } from 'bootstrap';
-import Surat1 from '../../../assets/image/surat/Surat1.jpeg';
+import Surat1 from '../../../assets/image/Surat/Surat1.jpeg'
 import Surat2 from '../../../assets/image/surat/Surat2.jpeg';
 import Surat3 from '../../../assets/image/surat/Surat3.jpeg';
 import Surat4 from '../../../assets/image/surat/Surat4.jpeg';
