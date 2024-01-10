@@ -42,7 +42,7 @@ const PriceList = () => {
                     {priceList.map((product) => (
                         <tr key={product.id}>
                         <td className='td-pricelist'>{product.id}</td>
-                        <td className='td-pricelist pricelist-name'>{product.name}</td>
+                        <td className='td-pricelist'>{product.name}</td>
                         <td className='td-pricelist'>{formatPrice(product.originalPrice)}</td>
                         <td className='td-pricelist'>{product.discount}%</td>
                         <td className='td-pricelist'>{formatPrice(product.finalPrice)}</td>

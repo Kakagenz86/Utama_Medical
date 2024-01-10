@@ -31,7 +31,7 @@
     letter-spacing: 0.5px;
 }
 
-@media (max-width:576px) {
+@media (max-width: 576px) {
     .about-title-um {
         font-size: 18px;
     }

@@ -4,21 +4,9 @@
     height: 70px;
 }
 
-.navbar .navbar-toggler,
-.navbar .navbar-toggler-icon {
-    font-size: 15px;
-    padding: 5px;
-    border: none;
-}
-
 .logo {
     width: 160px;
     height: 80px;
-}
-
-.sidebar {
-    width: 250px !important;
-    background-color: #2980b9 !important;
 }
 
 .nav-link-wrapper {
@@ -48,3 +36,21 @@
     width: 100px;
     text-decoration: none;
 } */
+
+
+@media (max-width: 576px) {
+    .logo {
+        width: 25%;
+        height: 25%;
+    }
+    .navbar {
+        display: flex;
+    }
+
+    .nav-link {
+        font-size: 100%;
+        position: relative;
+        bottom: 8px;
+    }
+
+}
