@@ -1,14 +1,12 @@
 import Header from '../Header/header';
 import './style.css'
-import Aos from 'aos';
 
 const AboutSection = () => {
-    Aos.init({ duration: 1000 })
     return (
         <div className='bg-about'>
             <Header title='Company Profile' />
 
-            <div data-aos="fade-right" className='container mt-5'>
+            <div className='container mt-5'>
                 <p className='text-about'><span className='about-title-um ms-5'>Utama Medical</span> yang berdiri pada tahun 2021 yang didirikan oleh Muhamad Rizal Utomo A.Md.TEM. perusahaan ini bergerak dalam bidang perbaikan alat kesehatan, pengadaan barang dan jasa terutama di bidang Alat Kesehatan. Spesifikasi pengadaan barang dan jasa dalam bidang Alat Kesehatan yang kami kerjakan meliputi:</p>
                 <ul>
                     <li className='fs-5 ms-5 text-about'>Sparepart Alat Kesehatan</li>

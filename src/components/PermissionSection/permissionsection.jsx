@@ -8,7 +8,7 @@ const PermissionSection = () => {
         <div className='bg-permission'>
             <Header title='Perizinan Perusahaan'/>
 
-            <div data-aos="fade-left" className="container mt-5">
+            <div className="container mt-5">
                 <h3 className='d-flex justify-content-center'>Izin Perusahaan</h3>
                 <ol>
                     <li className='text-permission ms-5'>Akta Pendirian</li>

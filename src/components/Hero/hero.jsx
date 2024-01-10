@@ -1,13 +1,11 @@
 import './style.css'
 import Logo2 from '../../assets/image/Logo2.png'
-import Aos from 'aos';
 import HeroContent from '../HeroContent/herocontent';
 
 const Hero = () => {
-    Aos.init({ duration: 1000 })
     return (
             <div className='hero'>
-                <div data-aos="zoom-out" className='hero-wrapper container'>
+                <div className='hero-wrapper container'>
                     <div>
                         <h1 className='title-hero'>UTAMA MEDICAL</h1>
                         <h6>Medical Equipment, Sparepart, Service & Maintenance</h6>

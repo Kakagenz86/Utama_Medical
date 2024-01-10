@@ -1,7 +1,5 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import './style.css'
-import Aos from 'aos';
-import 'aos/dist/aos.css';
 import { Modal } from 'bootstrap';
 import Surat1 from '../assets/image/Surat/Surat1.jpeg'
 import Surat2 from '../assets/image/Surat/Surat2.jpeg'
@@ -27,12 +25,6 @@ const Sertifikat = () => {
 
     const [selectedImageIndex, setSelectedImageIndex] = useState(null);
 
-    useEffect(() => {
-        Aos.init({
-            duration: 1500
-        });
-    }, []);
-
     const openModal = (index) => {
         setSelectedImageIndex(index);
         const modal = new Modal(document.getElementById('lightboxModal'));
@@ -42,7 +34,7 @@ const Sertifikat = () => {
     return (
         <div>
             <div className='container'>
-                <h1 data-aos="zoom-in" className='d-flex justify-content-center mt-5'>Surat Perizinan</h1>
+                <h1 className='d-flex justify-content-center mt-5'>Surat Perizinan</h1>
                 <div className="row row-cols-md-6 row-cols-sm-4 row-cols-3 d-flex justify-content-center">
                 {imageSources.map((imageSrc, index) => (
                     <div data-aos="flip-left" key={index} className="col wrapper-surat">

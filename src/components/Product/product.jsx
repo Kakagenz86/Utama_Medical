@@ -1,7 +1,5 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import './style.css'
-import Aos from 'aos';
-import 'aos/dist/aos.css';
 import { Modal } from 'bootstrap';
 import img1 from '../../assets/image/Product/img1.jpeg'
 import img2 from '../../assets/image/Product/img2.jpeg'
@@ -22,7 +20,6 @@ import img16 from '../../assets/image/Product/img16.jpeg'
 import img17 from '../../assets/image/Product/img17.jpeg'
 import Header from '../Header/header';
 import PriceList from '../PriceList/pricelist'
-
 
 const Product = () => {
     const imageSources = [{
@@ -114,12 +111,6 @@ const Product = () => {
 
     const [selectedImageIndex, setSelectedImageIndex] = useState(null);
 
-    useEffect(() => {
-        Aos.init({
-            duration: 1500
-        });
-    }, []);
-
     const openModal = (index) => {
         setSelectedImageIndex(index);
         const modal = new Modal(document.getElementById('lightboxModal'));
@@ -130,7 +121,7 @@ const Product = () => {
             <Header title='Produk Kami'/>
             <PriceList/>
             <div className='container'>
-                <h1 data-aos="zoom-in" className='d-flex justify-content-center mt-5'>List Product</h1>
+                <h1 className='d-flex justify-content-center mt-5'>List Product</h1>
                 <div className="row row-cols-md-6 row-cols-sm-4 row-cols-3 d-flex justify-content-center">
                 {imageSources.map((imageSrc, index) => (
                     <div data-aos="flip-left" key={index} className="col wrapper-product">

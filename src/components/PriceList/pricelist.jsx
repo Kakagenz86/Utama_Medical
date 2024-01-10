@@ -1,5 +1,4 @@
 import './style.css'
-import Aos from 'aos';
 
 const PriceList = () => {
     const priceList = [
@@ -26,10 +25,8 @@ const PriceList = () => {
     ];
     const formatPrice = (price) => new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR' }).format(price);
 
-    Aos.init({ duration: 1000 });
-
     return (
-        <div data-aos="zoom-out" className='mt-5'>
+        <div className='mt-5'>
             <h1 className='title-pricelist'>PriceList</h1>
             <table className='pricelist' border="1">
                 <thead>
