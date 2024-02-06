@@ -1,5 +1,4 @@
 import './style.css'
-import Sertifikat from '../../Sertifikat/sertifikat';
 import Header from '../Header/header';
 
 const PermissionSection = () => {
@@ -7,7 +6,6 @@ const PermissionSection = () => {
     return (
         <div className='bg-permission'>
             <Header title='Perizinan Perusahaan'/>
-
             <div className="container mt-5">
                 <h3 className='d-flex justify-content-center'>Izin Perusahaan</h3>
                 <ol>
@@ -22,7 +20,6 @@ const PermissionSection = () => {
                     <p className='text-permission ms-5'>dan lain lain...</p>
                 </ol>
             </div>
-            <Sertifikat />
         </div>
     );
 }

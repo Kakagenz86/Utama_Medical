@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@500&display=swap');
 
 .bg-permission {
-    position: relative;
+    content: '';
 }
 
 .bg-permission:before {
     content: "";
     position: absolute;
+    height: 100vh;
     top: 0;
     right: 0;
     bottom: 0;
